@@ -8,27 +8,39 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
         }
         header{
+            background-color: rgb(231, 112, 9);
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
             a {
-                display: flex;
-                justify-content: center;
-                margin-bottom: 20px;
                 text-decoration: none;
-                color: #007BFF;
+                color: #2b2b2b;
                 font-size: 30px;
                 font-weight: bold;
             }
             a:hover {
-                transition: 0.5s ease-in-out;
-                color: black;
+                transition: 0.2s ease-in-out;
+                color: rgb(255, 206, 157);
             }
         }
         section{
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            gap: 10px;
+            margin: 30px;
+            & p{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
             & h1{
                 font-size: 40px;
                 color: #333;
@@ -37,6 +49,7 @@
                 width: 400px;
                 height: auto;
                 border-radius: 10px;
+                margin-top: -30px;
             }
             & img:hover {
                     transition: 0.5s ease-in-out;
@@ -52,7 +65,27 @@
     <section>
         <h1>Lasagna</h1>
         <img src="../images/lasagna.avif" alt="Delicious Lasagna">
+        <p>This is a simple and delicious lasagna recipe that everyone will love!</p>
+        <p>This recipe is made for thousands grandmas around the world, and it's a family favorite, you have to try it!</p>
     </section>
+    <div>
+        <UL>
+            <H2>Ingredients</H2>
+            <li>12 lasagna noodles</li>
+            <li>500g ground beef (or pork)</li>
+            <li>2 cups (500ml) tomato sauce</li>
+            <li>3 cloves garlic (minced)</li>
+            <li>1 medium onion (chopped)</li>
+            <li>2 tablespoons olive oil</li>
+            <li>1 teaspoon salt</li>
+            <li>1/2 teaspoon black pepper</li>
+            <li>1 teaspoon dried oregano</li>
+            <li>1 teaspoon dried basil</li>
+            <li>400g ricotta cheese (or 2 cups béchamel sauce)</li>
+            <li>2 cups (200g) shredded mozzarella cheese</li>
+            <li>1/2 cup (50g) grated Parmesan cheese</li>
+        </UL>
+    </div>
     
 </body>
 </html>
